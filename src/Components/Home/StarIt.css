@@ -1,0 +1,18 @@
+.star-it-area{
+    padding: 50px 20px;
+    color: var(--mainWhite);
+}
+.star-it-img{
+    padding-top: 60px;
+}
+.star-it-text h3{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: var(--mainSpacing);
+
+}
+.star-it-text{
+    line-height: 3rem;
+}

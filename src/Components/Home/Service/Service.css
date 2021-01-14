@@ -1,0 +1,30 @@
+.service-area{
+    text-align:center;
+    padding: 40px;
+    background: linear-gradient(#5FABD6,#39455C) ;
+    color: var(--mainWhite);
+    
+}
+.services{
+    background: linear-gradient(#5FABD6,#687689) ;
+   margin-bottom: 20px;
+   padding: 20px 10px;
+
+}
+.service-text h3{
+   font-size:20px;
+   padding:10px 0;
+}
+.service-text p{
+   font-size:15px;
+   padding:25px 0;
+}
+.service-icon{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:#009CDD;
+    padding-top:15px;
+    margin: 0 auto;
+    font-size: 30px;
+}

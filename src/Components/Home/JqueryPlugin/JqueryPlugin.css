@@ -1,0 +1,60 @@
+.plugin-area{
+  /* padding: 70px 0px; */
+}
+.plugin-text{
+  text-align: center;
+  padding: 30px 20px;
+}
+.plugin-buttons{
+  text-align: center;
+  padding: 30px 20px;
+}
+.plugin-img{
+ position: relative;
+ overflow: hidden;
+
+}
+.plugin-img img{
+  padding: 20px 20px;
+  margin-bottom:-5px;
+}
+.plugin-title-text{
+  padding: 10px 20px;
+}
+.plugin-buttons button{
+  background: transparent;
+  background-color: var(--primaryColor);
+  padding: 5px 20px;
+  color: var(--mainWhite);
+  border: none;
+  margin-left: 5px;
+  text-transform: uppercase;
+  border-radius:40px;
+  letter-spacing: var(--mainSpacing);
+  background:linear-gradient(90deg,#0162c8,#55e7fc);
+}
+.plugin-overlay{
+  width: 90%;
+  height: 30%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  margin-left: 20px;
+  background-color: rgba(0,0,0,.9);
+  transition:.3s;
+}
+.plugin-overlay-btn{
+  text-align: center;
+  padding-top: 20px;
+}
+.plugin-overlay-btn button{
+  background:transparent;
+  margin-left: 5px;
+  padding: 5px 20px;
+  border:none;
+  background-color: var(--mainWhite);
+  letter-spacing: var(--mainSpacing);
+}
+.plugin-img:hover .plugin-overlay{
+  top: 67%;
+}
